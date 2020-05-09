@@ -1,0 +1,102 @@
+@font-face{
+    font-family: 'Sacramento';
+    src: url(./Font/Sacramento-Regular.ttf);
+}
+
+body{
+    background-color: rgb(172, 221, 236);
+}
+
+#backgroundImg{
+    background-image: url(./img/tomoko-uji-up_IHPsJvSI-unsplash.jpg);
+    background-size: cover;
+}
+
+#background{
+    background-image: linear-gradient(135deg, rgba(121, 200, 223, .7),rgba(228, 198, 223, .7));
+    background-repeat: repeat;
+    height:1000px;
+}
+
+.navbar{
+    background-color:rgb(255, 236, 246);
+}
+
+.navbar-nav {
+    display:grid;
+    grid-template-columns:10% 16% 16% 16% 16% 16% 10%;
+    margin:0 auto;
+    text-align: center;
+    height:3em;
+    width:100%;
+    font-size: 14pt;
+}
+
+#logo{
+    border-radius: 50%;
+    width:13em;
+    margin:auto;
+    position: relative;
+    top:-10em;
+    background-color:rgb(255, 236, 246);
+    border: 5px solid rgb(255, 236, 246);
+}
+
+.brand{
+    color:(230, 230, 230);
+    text-align: center;
+    font-size: 60pt;
+    font-family: 'Sacramento', fallback, sans-serif;
+}
+
+.jumbotron{
+    background-color: rgba(255,255,255,.4);
+    margin:0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:22pt;
+    padding:1em;
+    background-color:rgb(255, 236, 246);
+    text-align: center;
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:18pt;
+    text-align: center;
+}
+
+.card{
+    background-color:rgb(255, 236, 246);
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.card-body{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vw;
+}
+
+.row{
+    padding-top:4em;
+}
+
+.carousel{
+    height:100%;
+}
+
+.img-fluid{
+    max-width:100%;
+}
